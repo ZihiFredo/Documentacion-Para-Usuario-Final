@@ -23,6 +23,13 @@ El estado de los hospitales es revisado por Voxmapp periódicamente a través de
 
 ## Tecnologia Usada
 
+Se utilizan principalmente 4 elementos grandes para que el proyecto funcione:
+
+1. Google forms: Aqui es donde se creo la encuesta y se reciben los datos para que la informacion pueda seguir su flujo
+2. Google sheets: Se guarda la informacion de la encuesta para poder pasara a la base de datos
+3. PostgresSQL: PostgreSQL es un sistema de gestión de bases de datos relacional orientado a objetos que utilizamos para poder crear la base de datos
+4. DBeaver: DBeaver es una aplicación de software cliente de SQL en donde creamos la base de datos y le damos mantenimnto al igual que creamos tablas para responder preguntas que pueden ser contestadas con la informacion que tenemos guarda en la base de datos
+
 ## Caracteriticas
 
 ## Screenshot
