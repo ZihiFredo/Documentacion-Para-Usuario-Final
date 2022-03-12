@@ -2,7 +2,12 @@
 
 # ProyectoVoxmapp
 
+El proyecto trata de falicitar el uso de datos que recibe una empresa a travez de una encuesta. Esta encuesta esta divida en preguntas las cuales son transferidas a un google sheets para que despues pasen a una base de datos y asi los datos ya esten dividos, ordenados y listos para ser utilizados
+
 ## Tabla de contenidos
+
+
+
 
 ## Informacion general
 
