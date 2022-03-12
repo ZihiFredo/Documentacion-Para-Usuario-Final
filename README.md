@@ -6,7 +6,7 @@ El proyecto trata de falicitar el uso de datos que recibe una empresa a travez d
 
 ## Tabla de contenidos
 
-https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#informacion-general
+[Informacion General] (https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#informacion-general)
 
 
 ## Informacion general
@@ -34,7 +34,11 @@ Se utilizan principalmente 4 elementos grandes para que el proyecto funcione:
 
 ## Screenshot
 
+## Set up
+
 ## Uso
+
+## Estatus del Projecto
 
 ## Mejoras en el futuro
 
