@@ -41,6 +41,8 @@ Se utilizan principalmente 4 elementos grandes para que el proyecto funcione:
 
 ## Set up
 
+Para poder tener acceso completo al proyecto y poder utilizar de todas sus muy utiles herramientas se requiere installar un par de cosas y conectar el google sheets a la base de datos, para lo que tenemos que conectar el google sheets a pyhton y de python a la base de datos, a continuacion estara el link para accesar a el manual del usuario:
+
 ## Uso
 
 ## Estatus del Projecto
