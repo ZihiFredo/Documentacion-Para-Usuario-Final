@@ -37,7 +37,7 @@ Se utilizan principalmente 4 elementos grandes para que el proyecto funcione:
 3. __PostgresSQL__: PostgreSQL es un sistema de gestión de bases de datos relacional orientado a objetos que utilizamos para poder crear la base de datos
 4. __DBeaver__: DBeaver es una aplicación de software cliente de SQL en donde creamos la base de datos y le damos mantenimnto al igual que creamos tablas para responder preguntas que pueden ser contestadas con la informacion que tenemos guarda en la base de datos
 
-## Caracteriticas
+## Caracteristicas
 
 Las principales caracteristicas de nuestro proyecto 
 
