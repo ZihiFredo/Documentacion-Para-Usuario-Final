@@ -6,7 +6,7 @@ El proyecto trata de falicitar el uso de datos que recibe una empresa a travez d
 
 ## Tabla de contenidos
 
-[Informacion General] (https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#informacion-general)
+[Informacion General](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#informacion-general)
 
 
 ## Informacion general
