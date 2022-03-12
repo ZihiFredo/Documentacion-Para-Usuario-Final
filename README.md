@@ -51,6 +51,101 @@ Tiempo promedio de reservas: Tiempo promedio existente de reservas para cada rec
 
 ![ER_voxmapp_dbeaver](https://user-images.githubusercontent.com/77375206/117859721-fdcd0180-b254-11eb-8251-1de45397df5d.PNG)
 
+```python
+--
+
+create view necesidades_hospital as(
+	with reservas_num as (
+		select
+		    case r.oxygen_reserves 
+		      when 'Yes, for 30 days' then 30
+		      when 'Yes, for 15 days' then 15
+		      when 'Yes, for 7 days' then 7
+		      when 'Yes, for 3 days' then 3
+		      when 'No' then 0
+		    end as oxygen_reserves_num,
+		    case r.antipyretics_reserves 
+		      when 'Yes, for 30 days' then 30
+		      when 'Yes, for 15 days' then 15
+		      when 'Yes, for 7 days' then 7
+		      when 'Yes, for 3 days' then 3
+		      when 'No' then 0
+		    end as antipyretics_reserves_num,
+		    case r.anesthetics_and_muscular_relaxants
+		      when 'Yes, for 30 days' then 30
+		      when 'Yes, for 15 days' then 15
+		      when 'Yes, for 7 days' then 7
+		      when 'Yes, for 3 days' then 3
+		      when 'No' then 0
+		    end as anesthetics_and_muscular_relaxants_num,
+		    case r.alcohol_reserves_and_handsoap
+		      when 'Yes, for 30 days' then 30
+		      when 'Yes, for 15 days' then 15
+		      when 'Yes, for 7 days' then 7
+		      when 'Yes, for 3 days' then 3
+		      when 'No' then 0
+		    end as alcohol_reserves_and_handsoap_num,
+		    case r.personal_disposable_masks
+		      when 'Yes, for 30 days' then 30
+		      when 'Yes, for 15 days' then 15
+		      when 'Yes, for 7 days' then 7
+		      when 'Yes, for 3 days' then 3
+		      when 'No' then 0
+		    end as personal_disposable_masks_num,
+		    case r.personal_vinyl_gloves
+		      when 'Yes, for 30 days' then 30
+		      when 'Yes, for 15 days' then 15
+		      when 'Yes, for 7 days' then 7
+		      when 'Yes, for 3 days' then 3
+		      when 'No' then 0
+		    end as personal_vinyl_gloves_num,
+		    case r.personal_disposable_hats
+		      when 'Yes, for 30 days' then 30
+		      when 'Yes, for 15 days' then 15
+		      when 'Yes, for 7 days' then 7
+		      when 'Yes, for 3 days' then 3
+		      when 'No' then 0
+		    end as personal_disposable_hats_num,
+		    case r.personal_disposable_aprons
+		      when 'Yes, for 30 days' then 30
+		      when 'Yes, for 15 days' then 15
+		      when 'Yes, for 7 days' then 7
+		      when 'Yes, for 3 days' then 3
+		      when 'No' then 0
+		    end as personal_disposable_aprons_num,
+		    case r.personal_visors
+		      when 'Yes, for 30 days' then 30
+		      when 'Yes, for 15 days' then 15
+		      when 'Yes, for 7 days' then 7
+		      when 'Yes, for 3 days' then 3
+		      when 'No' then 0
+		    end as personal_visors_num,
+		    case r.personal_disposable_shoe_covers
+		      when 'Yes, for 30 days' then 30
+		      when 'Yes, for 15 days' then 15
+		      when 'Yes, for 7 days' then 7
+		      when 'Yes, for 3 days' then 3
+		      when 'No' then 0
+		    end as personal_disposable_shoe_covers_num,
+		    r.num_test_kits,
+		    r.respiratory_ventilator_machines,
+		    r.reservas_id,
+		    r.update_id
+			from reservas r join update_ u on(r.reservas_id=u.update_id) join control_ c on(c.update_id=u.update_id)
+			where c.update_status like '%completed%' 
+	), health_levels as (
+		select u.moph_number as hos_id, avg(reservas_num.oxygen_reserves_num) as avg_oxygen, avg(reservas_num.antipyretics_reserves_num) as avg_antipyretics, avg(reservas_num.anesthetics_and_muscular_relaxants_num) as avg_anesthetics, avg(reservas_num.alcohol_reserves_and_handsoap_num) as avg_alcohol, avg(reservas_num.personal_disposable_masks_num) as avg_masks, avg(reservas_num.personal_disposable_aprons_num) as avg_aprons, avg(reservas_num.personal_vinyl_gloves_num) as avg_gloves, avg(reservas_num.personal_disposable_hats_num) as avg_hats, avg(reservas_num.personal_visors_num) as avg_visors, avg(reservas_num.personal_disposable_shoe_covers_num) as avg_shoe_covers, avg(reservas_num.num_test_kits) as avg_test, avg(reservas_num.respiratory_ventilator_machines) as avg_venti
+		from update_ u join reservas_num  using (update_id) join control_ c using (update_id)
+		where c.update_status like '%completed%' and c.problem like '%none%' and u.update_date <= current_date and u.update_date > (current_date - '1 month'::interval)
+		group by u.moph_number
+		order by u.moph_number
+	)
+	select h.moph_number, h.hospital_name, h.district, h.province, health_levels.avg_oxygen, health_levels.avg_antipyretics, health_levels.avg_anesthetics, health_levels.avg_alcohol, health_levels.avg_masks, health_levels.avg_aprons, health_levels.avg_gloves, health_levels.avg_hats, health_levels.avg_visors,health_levels.avg_shoe_covers, health_levels.avg_test,  health_levels.avg_venti
+	from hospital h join health_levels  on (health_levels.hos_id = h.moph_number)
+	order by h.moph_number
+)
+```
+
 #### Diagrama-ER
 
 diagrama con db.diagram.io
