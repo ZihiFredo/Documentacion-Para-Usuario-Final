@@ -172,6 +172,8 @@ https://docs.google.com/document/d/1f8hk7zHd1ZKWIZ-X9rfSQJVDa396f0n6/edit
 
 ## Uso
 
+Para el uso de el proyecto creamos un aplicacion
+
 ## Estatus del Proyecto
 
 El proyecto actualmentse esta acabado, sin embargo, siempre estamos arreglando errores y buscando posibles mejoras por lo que en caso de tener cualquier comentarios sobre el proyecto no dudar en contactarme @ZihiFredo
