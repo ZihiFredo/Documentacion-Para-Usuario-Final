@@ -25,10 +25,10 @@ El estado de los hospitales es revisado por Voxmapp periódicamente a través de
 
 Se utilizan principalmente 4 elementos grandes para que el proyecto funcione:
 
-1. _Google forms_: Aqui es donde se creo la encuesta y se reciben los datos para que la informacion pueda seguir su flujo
-2. _Google sheets_: Se guarda la informacion de la encuesta para poder pasara a la base de datos
-3. _PostgresSQL_: PostgreSQL es un sistema de gestión de bases de datos relacional orientado a objetos que utilizamos para poder crear la base de datos
-4. _DBeaver_: DBeaver es una aplicación de software cliente de SQL en donde creamos la base de datos y le damos mantenimnto al igual que creamos tablas para responder preguntas que pueden ser contestadas con la informacion que tenemos guarda en la base de datos
+1. __Google forms__: Aqui es donde se creo la encuesta y se reciben los datos para que la informacion pueda seguir su flujo
+2. __Google sheets__: Se guarda la informacion de la encuesta para poder pasara a la base de datos
+3. __PostgresSQL__: PostgreSQL es un sistema de gestión de bases de datos relacional orientado a objetos que utilizamos para poder crear la base de datos
+4. __DBeaver__: DBeaver es una aplicación de software cliente de SQL en donde creamos la base de datos y le damos mantenimnto al igual que creamos tablas para responder preguntas que pueden ser contestadas con la informacion que tenemos guarda en la base de datos
 
 ## Caracteriticas
 
