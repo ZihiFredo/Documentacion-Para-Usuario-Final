@@ -45,7 +45,11 @@ Las principales caracteristicas de nuestro proyecto
 
 #### Ejemplo de una grafica
 
-Se muestra una grafica que fue creada con la informacion rescatada
+Se muestra una grafica que fue creada con la informacion rescatada de la encuesta que ahora esta alamcenada en la base de datos
+
+Tiempo promedio de reservas: Tiempo promedio existente de reservas para cada recurso registrado en cada hospital, asi como sus caracteristicas geograficas
+
+![ER_voxmapp_dbeaver](https://user-images.githubusercontent.com/77375206/117859721-fdcd0180-b254-11eb-8251-1de45397df5d.PNG)
 
 #### Diagrama-ER
 
