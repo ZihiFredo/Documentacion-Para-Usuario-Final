@@ -13,7 +13,7 @@ El proyecto trata de falicitar el uso de datos que recibe una empresa a travez d
 + [Set up](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#set-up)
 + [Uso](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#uso)
 + [Estatus del Proyecto](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#estatus-del-proyecto)
-+ [Mejoras del Proyecto](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#mejoras-del-proyecto)
++ [Mejoras del Proyecto](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#mejoras-en-el-futuro)
 
 
 ## Informacion general
