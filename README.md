@@ -49,7 +49,7 @@ Se muestra una grafica que fue creada con la informacion rescatada de la encuest
 
 Tiempo promedio de reservas: Tiempo promedio existente de reservas para cada recurso registrado en cada hospital, asi como sus caracteristicas geograficas
 
-![ER_voxmapp_dbeaver](https://user-images.githubusercontent.com/77375206/117859721-fdcd0180-b254-11eb-8251-1de45397df5d.PNG)
+![Tabla parte 1](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/Captura%20de%20Pantalla%202022-03-12%20a%20la(s)%2013.44.59.png?raw=true)
 
 ```python
 --
