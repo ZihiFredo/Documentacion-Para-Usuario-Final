@@ -49,7 +49,16 @@ Se muestra una grafica que fue creada con la informacion rescatada de la encuest
 
 Tiempo promedio de reservas: Tiempo promedio existente de reservas para cada recurso registrado en cada hospital, asi como sus caracteristicas geograficas
 
+###### Tablas en la base de datos
+
 ![Tabla parte 1](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/Captura%20de%20Pantalla%202022-03-12%20a%20la(s)%2013.44.59.png?raw=true)
+![Tabla parte 2](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/Captura%20de%20Pantalla%202022-03-12%20a%20la(s)%2013.45.20.png)
+
+###### Grafica
+
+![Grafica](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/Captura%20de%20Pantalla%202022-03-12%20a%20la(s)%2013.46.38.png)
+
+###### Codigo
 
 ```python
 --
