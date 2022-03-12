@@ -18,10 +18,8 @@ El proyecto trata de falicitar el uso de datos que recibe una empresa a travez d
 
 ## Informacion general
 
-#### Problema
-Voxmapp quiere mejorar su proceso de recepción y manejo de datos. Estos datos son sobre la infraestructura de salud de hospitales en Afganistán y se reciben a través de un cuestionario que se llena una vez al mes por personal de los hospitales a quienes se les notifica por telefono. Es importante resaltar que estos hospitales están en un contexto de inestabilidad y a veces en zonas remotas. Actualmente reciben los datos como un solo documento en el que las diferentes respuestas al cuestionario se separan por comas y otros caracteres. Además, los datos no se reciben con un formato estándar debido a que se llenan desde diferentes regiones y contextos, lo que causa problemas a la hora de segmentar y analizar los datos. No es una solución óptima que alenta el proceso de pasar la información de la encuesta a la base de datos. Este último proceso se termina haciendo a mano. Poder encontrar un método más eficiente de recepción y estandarización de datos sería de su interés. Luego de analizar los datos, Voxmapp sube estos periodicamente a Tableu. El problema aquí se presenta a la hora de querer actualizar las vistas en Tableu, pues se debe de hacer manualmente. Encontrar la forma de automatizar este proceso también sería de su interés. 
+Voxmapp es una empresa que se dedica a apoyar hospitales en paises de menores recursos, en este caso Afganistan, especialmente ahora con la epidemia de el COVID-19. Buscamos mejorar su proceso de recepción y manejo de datos. Estos datos son sobre la infraestructura de salud de hospitales en Afganistán y se reciben a través de un cuestionario que se llena una vez al mes por personal de los hospitales a quienes se les notifica por telefono. Es importante resaltar que estos hospitales están en un contexto de inestabilidad y a veces en zonas remotas. Actualmente reciben los datos como un solo documento en el que las diferentes respuestas al cuestionario se separan por comas y otros caracteres. Además, los datos no se reciben con un formato estándar debido a que se llenan desde diferentes regiones y contextos, lo que causa problemas a la hora de segmentar y analizar los datos. No es una solución óptima que alenta el proceso de pasar la información de la encuesta a la base de datos. Este último proceso se termina haciendo a mano. Poder encontrar un método más eficiente de recepción y estandarización de datos sería de su interés. Luego de analizar los datos, Voxmapp sube estos periodicamente a Tableu. El problema aquí se presenta a la hora de querer actualizar las vistas en Tableu, pues se debe de hacer manualmente. Encontrar la forma de automatizar este proceso también sería de su interés. 
 
-#### Usuario
 El Hospital se ubica en un distrito, de una región, de un país y dichos distrito, región y páis pueden tener más de un hospital en ellos, para ello será necesario un catálogo de países, regiones y distritos para el alta de los hospitales (se propone la relación de N Hospitales en 1 Región). En el hospital se registran los datos estáticos del mismo (ubicación,estado general de la infraestructura, etc). Cada hospital tiene un inventario propio en el que se almacenan diferentes recursos como medicinas, equipamiento médico, etc. (se propone la relación de N Recursos en 1 Inventario en 1 Hospital). El hospital tiene varios doctores (Lorenzo menciona en la entrevista algo que da a entender que algunos doctores pasan por más de un hospital o clínica, tenemos que preguntar bien si se refería a que se mantenían contratados en varios por falta de personal calificado en las regiones o si estaban en un solo trabajo a la vez; asumimos la primera situación hasta que tengamos respuesta) y personal; el personal tiende a permanecer por largos periodos de tiempo en los hospitales por lo que asumimos que ellos solo están contratados en un hospital a la vez (se proponen las relaciones de N Doctores en N Hospitales y N Personal en 1 Hospital). Al registrar el hospital se registran 3 Contactos (proponemos la relación  1 Hospital con 3(N) Contactos) 
 
 Se ha dicho que los hospitales tratan casos COVID con frecuencia (proponemos N Casos covid en 1 Hospital). Por lo tanto se debe crear una entidad de Casos Covid. Los casos covid que se tratan asumimos que son seguidos por un solo doctor y tratados por varios miembros del personal (Proponemos 1 Doctor para N Casos Covid y N Personal para N Casos Covid). 
@@ -166,13 +164,15 @@ y el que se muestra en dbeaver
 
 ## Set up
 
+Para usar la aplicacion como usuario solo se requiere instalar la aplicacion de escritorio
+
 Para poder tener acceso completo al proyecto y poder utilizar de todas sus muy utiles herramientas se requiere installar un par de cosas y conectar el google sheets a la base de datos, para lo que tenemos que conectar el google sheets a pyhton y de python a la base de datos, a continuacion estara el link para accesar a el manual del usuario:
 
 https://docs.google.com/document/d/1f8hk7zHd1ZKWIZ-X9rfSQJVDa396f0n6/edit
 
 ## Uso
 
-Para el uso de el proyecto creamos un aplicacion
+Para el uso de el proyecto como usuario creamos un aplicacion de escritorio con Visual Studio, en la cual una vez instalada al accesar a la aplicacion te pedira una contraseña y un usuario, ingresar los datos correspondientes y dentro de ella los empleados de Voxmapp podran accesar a las respuestas de la encuesta, y los trabajadores de los hospitales podran completar la encuesta
 
 ## Estatus del Proyecto
 
@@ -180,7 +180,7 @@ El proyecto actualmentse esta acabado, sin embargo, siempre estamos arreglando e
 
 ## Mejoras en el futuro
 
-La mejora principal que tiene el projecto es que una vez que tenemos las posibilidades de crear graficas y vistas que contienen informacion que es pertinente para el cliente, queremos poder mostrarlas de la mejor manera posible, por lo que estamos buscando poder conectar la base de datos con Tableau que nos permite mostrar las graficas y las vistas de manera que es mas facil extraer la informacion que se encuentra en la base de datos ya que organiza los graficas en un mismo lugar y permite su acceso din tener que entrar directo a la base de datos
+La mejora principal que tiene el projecto es que una vez que tenemos las posibilidades de crear graficas y vistas que contienen informacion que es pertinente para el cliente, queremos poder mostrarlas de la mejor manera posible, por lo que estamos buscando poder conectar la base de datos con Tableau que nos permite mostrar las graficas y las vistas de manera que es mas facil extraer la informacion que se encuentra en la base de datos ya que organiza los graficas en un mismo lugar y permite su acceso sin tener que entrar directo a la base de datos
 
 ### Link de la encuesta
 
