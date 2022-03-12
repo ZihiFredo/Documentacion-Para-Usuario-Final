@@ -39,9 +39,13 @@ Se utilizan principalmente 4 elementos grandes para que el proyecto funcione:
 
 ## Caracteriticas
 
+Las principales caracteristicas de nuestro proyecto 
+
 ## Screenshot
 
 #### Ejemplo de una grafica
+
+Se muestra una grafica que fue creada con la informacion rescatada
 
 #### Diagrama-ER
 
@@ -60,7 +64,9 @@ https://docs.google.com/document/d/1f8hk7zHd1ZKWIZ-X9rfSQJVDa396f0n6/edit
 
 ## Uso
 
-## Estatus del Projecto
+## Estatus del Proyecto
+
+El proyecto actualmentse esta acabado, sin embargo, siempre estamos arreglando errores y buscando posibles mejoras por lo que en caso de tener cualquier comentarios sobre el proyecto no dudar en contactarme @ZihiFredo
 
 ## Mejoras en el futuro
 
