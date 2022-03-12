@@ -56,6 +56,8 @@ En dbeaver
 
 Para poder tener acceso completo al proyecto y poder utilizar de todas sus muy utiles herramientas se requiere installar un par de cosas y conectar el google sheets a la base de datos, para lo que tenemos que conectar el google sheets a pyhton y de python a la base de datos, a continuacion estara el link para accesar a el manual del usuario:
 
+                                          https://docs.google.com/document/d/1f8hk7zHd1ZKWIZ-X9rfSQJVDa396f0n6/edit
+
 ## Uso
 
 ## Estatus del Projecto
