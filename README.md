@@ -49,6 +49,8 @@ Para poder tener acceso completo al proyecto y poder utilizar de todas sus muy u
 
 ## Mejoras en el futuro
 
+La mejora principal que tiene el projecto es que una vez que tenemos las posibilidades de crear graficas y vistas que contienen informacion que es pertinente para el cliente, queremos poder mostrarlas de la mejor manera posible, por lo que estamos buscando poder conectar la base de datos con Tableau que nos permite mostrar las graficas y las vistas de manera que es mas facil extraer la informacion que se encuentra en la base de datos ya que organiza los graficas en un mismo lugar y permite su acceso din tener que entrar directo a la base de datos
+
 ### Link de la encuesta
 
 https://docs.google.com/forms/d/1NnXM4PWHAKxzAtIaQ5KYfcVVXQNEB6snOr99RaMZijE/edit
