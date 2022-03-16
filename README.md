@@ -9,11 +9,11 @@ El proyecto trata de facilitar el uso de datos que recibe una empresa a través 
 + [Información General](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#información-general)
 + [Tecnologia Usada](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#tecnologia-usada)
 + [Características Principales](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#características-principales)
-+ [Screenshot](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#screenshot)
 + [Set up](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#set-up)
 + [Uso](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#uso)
 + [Estatus del Proyecto](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#estatus-del-proyecto)
 + [Mejoras del Proyecto](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#mejoras-en-el-futuro)
++ [Link de la Encuesta](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#link-de-la-encuesta)
 
 
 ## Información general
