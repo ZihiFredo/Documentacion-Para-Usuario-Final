@@ -184,9 +184,11 @@ El proyecto actualmente está terminado; sin embargo, siempre estamos arreglando
 
 ## Mejoras en el futuro
 
-La principal mejora para el proyecto es la posibilidad de crear gráficas y vistas que contienen información que es pertinente para el cliente. Queremos mostrarlas de la mejor manera posible, por lo que estamos buscando poder conectar la base de datos con Tableau porque nos permite mostrar las gráficas y las vistas fácilmente, sin tener que acceder directamente a la base de datos. 
+La principal mejora para el proyecto es la posibilidad de crear gráficas y vistas que contienen información que es pertinente para el clientede manera mas eficiente. Queremos mostrarlas de la mejor manera posible, por lo que estamos buscando poder conectar la base de datos con Tableau porque nos permite mostrar las gráficas y las vistas fácilmente, sin tener que acceder directamente a la base de datos. 
 
 
 ### Link de la encuesta
+
+Dejamos el link de la encuesta para cualquier posible situación o necesidad que se presente
 
 https://docs.google.com/forms/d/1NnXM4PWHAKxzAtIaQ5KYfcVVXQNEB6snOr99RaMZijE/edit
