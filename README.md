@@ -176,7 +176,7 @@ https://docs.google.com/document/d/1f8hk7zHd1ZKWIZ-X9rfSQJVDa396f0n6/edit
 
 ### Uso
 
-Para el uso del proyecto como usuario, creamos un aplicación de escritorio con Visual Studio. Una vez instalada, al acceder a la aplicación,se debe ingresar lo siguiente: usuario y contraseña. Una vez dentro de ella, los empleados de Voxmapp podrán acceder a las respuestas de las encuestas, y los trabajadores de los hospitales podrán completar la encuesta.
+Para el uso del proyecto como usuario, creamos un aplicación de escritorio con Visual Studio. Una vez instalada, al acceder a la aplicación, se debe ingresar lo siguiente: usuario y contraseña. Una vez dentro de ella, los empleados de Voxmapp podrán acceder a las respuestas de las encuestas, y los trabajadores de los hospitales podrán completar la encuesta.
 
 ## Estatus del Proyecto
 
