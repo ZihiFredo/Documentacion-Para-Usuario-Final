@@ -30,7 +30,7 @@ Voxmapp es una empresa que se dedica a apoyar hospitales en países de menores r
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; El estado de los hospitales es revisado por Voxmapp periódicamente. A través de cuestionarios contestados por un miembro del personal de cada hospital registrado, se actualizan los datos que se tienen del hospital en cuestión. Cada cuestionario es contestado por un miembro del personal, y esto representa el influjo de los datos de cada hospital y su actualización (proponemos las relaciones 1 Personal contesta N Cuestionarios y 1 Cuestionario crea 1 Actualización).
 
-## Tecnologia Usada
+## Tecnología Usada
 
 Se utilizan principalmente 4 elementos grandes para que el proyecto funcione:
 
