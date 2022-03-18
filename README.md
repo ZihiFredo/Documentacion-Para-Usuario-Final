@@ -7,7 +7,7 @@ El proyecto trata de facilitar el uso de datos que recibe una empresa a través 
 ## Tabla de contenidos
 
 + [Información General](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#información-general)
-+ [Tecnologia Usada](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#tecnologia-usada)
++ [Tecnología Usada](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#tecnologia-usada)
 + [Características Principales](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#características-principales)
 + [Set up](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#set-up)
 + [Uso](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#uso)
@@ -20,11 +20,11 @@ El proyecto trata de facilitar el uso de datos que recibe una empresa a través 
 
 Voxmapp es una empresa que se dedica a apoyar hospitales en países de menores recursos, en este caso Afganistán, especialmente ahora con la pandemia del COVID-19. Buscamos mejorar su proceso de recepción y manejo de datos. Estos datos se basan en la infraestructura de salud de hospitales en Afganistán y se reciben a través de un cuestionario mensual que se llena por el personal de los hospitales a quiénes se les notifica por teléfono. Es importante resaltar que estos hospitales están en un contexto de inestabilidad y a veces en zonas remotas. Actualmente, reciben los datos como un solo documento en el que las diferentes respuestas al cuestionario se separan por comas y otros caracteres. 
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Además, los datos carecen de un formato estandarizado, debido a que se llenan desde diferentes regiones y contextos, lo que causa problemas a la hora de segmentar y analizar los datos. No es una solución óptima que alenta el proceso de pasar la información de la encuesta a la base de datos. Éste se termina haciendo a mano. Poder encontrar un método más eficiente de recepción y estandarización de datos es de su interés. Luego de analizar los datos, Voxmapp sube estos periódicamente a Tableu. El problema se presenta cuando quieren actualizar las vistas en Tableu, pues se debe de hacer manualmente. Encontrar la forma de automatizar este proceso también es de su interés. 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Además, los datos carecen de un formato estandarizado, debido a que se llenan desde diferentes regiones y contextos, lo que causa problemas a la hora de segmentar y analizar los datos. No es una solución óptima que retrasa el proceso de pasar la información de la encuesta a la base de datos. Éste se termina haciendo a mano. Poder encontrar un método más eficiente de recepción y estandarización de datos es de su interés. Luego de analizar los datos, Voxmapp sube estos periódicamente a Tableu. El problema se presenta cuando quieren actualizar las vistas en Tableu, pues se debe de hacer manualmente. Encontrar la forma de automatizar este proceso también es de su interés. 
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; El Hospital se ubica en un distrito, de una región, de un país. Dicho distrito, región y país puede tener más de un hospital en ellos. Para ello, será necesario un catálogo de países, regiones y distritos para la alta de los hospitales (se propone la relación de N Hospitales en 1 Región). En el hospital se registran los datos estáticos del mismo (ubicación, estado general de la infraestructura, etc). Cada hospital tiene un inventario que contiene diferentes recursos como medicinas, equipamiento médico, etc. (se propone la relación de N Recursos en 1 Inventario en 1 Hospital). 
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; El hospital tiene varios doctores (Lorenzo menciona en la entrevista que algunos médicos ejercen en más de un hospital o clínica. Tenemos que confirmar si se refiere a que están contratados en varios hospitales simultánemente, por falta de personal calificado en las regiones, o si estaban en un solo trabajo a la vez; asumimos la primera situación hasta que tengamos respuesta) y personal. El personal tiende a permanecer por largos periodos de tiempo en los hospitales; por lo anterior, asumimos que ellos solo están contratados en un hospital a la vez (se proponen las relaciones de N médicos en N Hospitales y N Personal en 1 Hospital). Al registrar el hospital, se registran 3 Contactos (proponemos la relación  1 Hospital con 3(N) Contactos).
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; El hospital tiene varios doctores (Lorenzo menciona en la entrevista que algunos médicos ejercen en más de un hospital o clínica. Tenemos que confirmar si se refiere a que están contratados en varios hospitales simultáneamente, por falta de personal calificado en las regiones, o si estaban en un solo trabajo a la vez; asumimos la primera situación hasta que tengamos respuesta) y personal. El personal tiende a permanecer por largos periodos de tiempo en los hospitales; por lo anterior, asumimos que ellos solo están contratados en un hospital a la vez (se proponen las relaciones de N médicos en N Hospitales y N Personal en 1 Hospital). Al registrar el hospital, se registran 3 Contactos (proponemos la relación  1 Hospital con 3(N) Contactos).
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Se ha dicho que los hospitales tratan casos COVID con frecuencia (proponemos N Casos covid en 1 Hospital). Por lo tanto, se debe crear una entidad de Casos Covid. Asumimos que los casos covid que se tratan son seguidos por un solo doctor y tratados por varios miembros del personal (Proponemos 1 Doctor para N Casos Covid y N Personal para N Casos Covid). 
 
@@ -34,8 +34,8 @@ Voxmapp es una empresa que se dedica a apoyar hospitales en países de menores r
 
 Se utilizan principalmente 4 elementos grandes para que el proyecto funcione:
 
-1. __Google forms__: aquí es donde se creó la encuesta y se reciben los datos para que la informacion pueda seguir su flujo.
-2. __Google sheets__: se guarda la informacion de la encuesta para poder pasara a la base de datos.
+1. __Google forms__: aquí es donde se creó la encuesta y se reciben los datos para que la información pueda seguir su flujo.
+2. __Google sheets__: se guarda la información de la encuesta para poder pasara a la base de datos.
 3. __PostgresSQL__: PostgreSQL es un sistema de gestión de bases de datos relacional orientado a objetos que utilizamos para poder crear la base de datos.
 4. __DBeaver__: DBeaver es una aplicación de software cliente de SQL para la manipulación y mantenimiento de las bases de datos.
 
@@ -184,7 +184,7 @@ El proyecto actualmente está terminado; sin embargo, siempre estamos arreglando
 
 ## Mejoras en el futuro
 
-La principal mejora para el proyecto es la posibilidad de crear gráficas y vistas que contienen información que es pertinente para el clientede manera mas eficiente. Queremos mostrarlas de la mejor manera posible, por lo que estamos buscando poder conectar la base de datos con Tableau porque nos permite mostrar las gráficas y las vistas fácilmente, sin tener que acceder directamente a la base de datos. 
+La principal mejora para el proyecto es la posibilidad de crear gráficas y vistas que contienen información que es pertinente para el cliente de manera más eficiente. Queremos mostrarlas de la mejor manera posible, por lo que estamos buscando poder conectar la base de datos con Tableau porque nos permite mostrar las gráficas y las vistas fácilmente, sin tener que acceder directamente a la base de datos. 
 
 
 ### Link de la encuesta
