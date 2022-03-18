@@ -7,7 +7,7 @@ El proyecto trata de facilitar el uso de datos que recibe una empresa a través 
 ## Tabla de contenidos
 
 + [Información General](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#información-general)
-+ [Tecnología Usada](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#tecnologia-usada)
++ [Tecnología Usada](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#tecnología-usada)
 + [Características Principales](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#características-principales)
 + [Set up](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#set-up)
 + [Uso](https://github.com/ZihiFredo/Documentacion-Para-Usuario-Final/blob/main/README.md#uso)
